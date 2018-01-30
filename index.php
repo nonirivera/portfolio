@@ -115,7 +115,7 @@
     					<h2>Sample Work</h2>
     					<p><u>abrietoCart</u>, derived from the Spanish word <i>abierto</i> which means <i>open</i>, is an open-source e-commerce solution.</p>
     					<br>
-    					<a class="btn btn-default btn-lg" href=""><i class="fa fa-github" aria-hidden="true"></i>View on GitHub</a>
+    					<a href="https://github.com/nonirivera/abiertoCart" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> View on GitHub</a>
     				</div>
     			</div>
                 <div class="col-md-6 col-sm-6">
@@ -125,15 +125,15 @@
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner">
                               <div class="item active">
-                                <img src="img/product1.jpg" alt="Los Angeles" style="width:80% height:80%;">
+                                <img src="img/product1.jpg" alt="abrietoCart Home" style="width:80% height:80%;">
                               </div>
 
                               <div class="item">
-                                <img src="img/product2.jpg" alt="Chicago" style="width:80% height:80%;">
+                                <img src="img/product2.jpg" alt="abrietoCart Admin Panel" style="width:80% height:80%;">
                               </div>
                             
                               <div class="item">
-                                <img src="img/product1.jpg" alt="New york" style="width:80% height:80%;">
+                                <img src="img/product3.jpg" alt="abrietoCart Product View" style="width:80% height:80%;">
                               </div>
                             </div>
                           </div>
@@ -151,12 +151,12 @@
     					<div class="row">
                             <div class="col-md-6 col-sm-6">
                                 <div class="thumbnail">
-                                    <img src="img/product3.png" style="width: 100%">
+                                    <img src="img/product4.png" style="width: 100%">
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6">
                                 <div class="thumbnail">
-                                    <img src="img/product4.png" style="width: 100%">
+                                    <img src="img/product5.png" style="width: 100%">
                                 </div>
                             </div>                 
                         </div>
@@ -168,7 +168,7 @@
                             </div>
                             <div class="col-md-6 col-sm-6">
                                 <div class="thumbnail">
-                                    <img src="img/product5.png" style="width: 100%">
+                                    <img src="img/product7.png" style="width: 100%">
                                 </div>
                             </div>                 
                         </div>
@@ -176,12 +176,12 @@
     			</div>
     			<div class="col-md-6 col-sm-6">
     				<div class="info-right">
-    					<h2>List of Features</h2>
+    					<h3>List of Features</h3>
     					<ul class="fa-ul">
-                            <li><i class="fa-li fa fa-check"></i>Easy and secure registration</li>
-                            <li><i class="fa-li fa fa-check"></i>View featured and latest products</li>
-                            <li><i class="fa-li fa fa-check"></i>Customer review for an easier reference</li>
-                            <li><i class="fa-li fa fa-check"></i>Administrator Control Panel that offers:</li>
+                            <li><i class="fa-li fa fa-check" id="check"></i>Easy and secure registration</li>
+                            <li><i class="fa-li fa fa-check" id="check"></i>View featured and latest products</li>
+                            <li><i class="fa-li fa fa-check" id="check"></i>Customer review for an easier reference</li>
+                            <li><i class="fa-li fa fa-check" id="check"></i>Administrator Control Panel that offers:</li>
                                 <ul>
                                     <li>dashboard page with quick access to different lists</li>
                                     <li>products page that monitors critical level for quantity</li>
@@ -223,9 +223,6 @@
                       <span id="status"></span>
 		            </form>
     			</div>
-    			<!-- <div class="col-md-7 col-sm-7" id="contactTouch">
-    				<h1>get in touch</h1>
-    			</div> -->
     		</div>
     	</div>
     </section>

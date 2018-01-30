@@ -34,6 +34,10 @@ window.sr = ScrollReveal();
 			origin: 'right',
 			viewFactor: 0.2
 		});
+		sr.reveal('#contact', {
+			duration: 2000,
+			origin: 'bottom',
+		});
 
 $(function() {
       // Smooth Scrolling
