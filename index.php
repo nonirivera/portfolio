@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>Noni Rivera | Web Developer</title>
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -53,8 +54,8 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#" data-toggle="tooltip" title="GitHub Page"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i></a></li>
-            <li><a href="#" data-toggle="tooltip" title="Facebook Profile"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="https://github.com/nonirivera" target="_blank" data-toggle="tooltip" title="GitHub Page"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.facebook.com/nonirivera" target="_blank" data-toggle="tooltip" title="Facebook Profile"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -70,7 +71,7 @@
     			</div>
     			<div class="col-md-6 col-sm-6">
     				<div class="showcase-right">
-    					<h1>Hi, I'm Noni.</h1>
+    					<h1 class="site-greeting">Hi, I'm Noni.</h1>
     					<p>I'm a developer from the Philippines who specializes in web application development.</p>
     				</div>
     				<br>
@@ -86,19 +87,19 @@
     		<div class="row">
                 <div class="col-md-4 col-sm-4">
                     <i class="fa fa-code fa-4x" style="color:red;"></i>
-                    <h3 style="color: red;">Code</h3>
+                    <h3 class="site-greeting" style="color: red;">Code</h3>
                     <hr>
                     <p class="customer">Backend development using PHP framework (CodeIgniter) with MySQL as well as NodeJS.</p>
                 </div>
                 <div class="col-md-4 col-sm-4">
                     <i class="fa fa-lightbulb-o fa-4x" aria-hidden="true" style="color:green;"></i>
-                    <h3 style="color: green;">Design</h3>
+                    <h3 class="site-greeting" style="color: green;">Design</h3>
                     <hr>
                     <p class="customer">Design pages from scratch or also work with front-end frameworks such as Bootstrap.</p>
                 </div>     
                 <div class="col-md-4 col-sm-4">
                     <i class="fa fa-line-chart fa-4x" aria-hidden="true" style="color: yellow;"></i>
-                    <h3 style="color: yellow;">Analyze</h3>
+                    <h3 class="site-greeting" style="color: yellow;">Analyze</h3>
                     <hr>
                     <p class="customer">Offer easy report-handling for robust web applications.</p>
                 </div>           
@@ -198,7 +199,12 @@
     <section id="contact">
     	<div class="container">
     		<div class="row">
+                <div class="col-md-2 col-sm-2">
+                    
+                </div>
     			<div class="col-md-5 col-sm-5">
+                    <h1 class="site-greeting">get in touch</h1>
+                    <br>
     				<form id="my_form" onsubmit="submitForm(); return false;">
 		              <div class="form-group">
 		                <label>Name: </label>
@@ -217,10 +223,9 @@
                       <span id="status"></span>
 		            </form>
     			</div>
-    			<div class="col-md-7 col-sm-7" id="contactTouch">
-    				<h1><i class="fa fa-hand-o-left" aria-hidden="true"></i>
- get in touch</h1>
-    			</div>
+    			<!-- <div class="col-md-7 col-sm-7" id="contactTouch">
+    				<h1>get in touch</h1>
+    			</div> -->
     		</div>
     	</div>
     </section>

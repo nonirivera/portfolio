@@ -1,3 +1,7 @@
+.site-greeting{
+	font-family: Lobster;
+}
+
 body{
 	margin-top: 70px;
 	font-size: 16px;
@@ -94,7 +98,7 @@ p{
 }
 
 #contactTouch h1{
-	font-family: Poppins;
+	font-family: Lobster;
 	color: #fff;
 }
 
