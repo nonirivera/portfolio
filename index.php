@@ -66,13 +66,13 @@
     		<div class="row">
     			<div class="col-md-6 col-sm-6">
     				<div class="showcase-left">
-    					<img src="img/image1.jpg">
+    					<img src="img/image1.png">
     				</div>
     			</div>
     			<div class="col-md-6 col-sm-6">
     				<div class="showcase-right">
-    					<h1 class="site-greeting">Hi, I'm Noni.</h1>
-    					<p>I'm a developer from the Philippines who specializes in web application development.</p>
+    					<h1>Good day, pal!</h1>
+    					<p>I'm Noni, a programmer from the Philippines who specializes in web application development.</p>
     				</div>
     				<br>
     				<a class="btn btn-default btn-lg showcase-btn" href="#testimonial">Services offered</a>
@@ -119,7 +119,8 @@
     				</div>
     			</div>
                 <div class="col-md-6 col-sm-6">
-                    <div class="info-left">
+                    <div class="well">
+                        <div class="info-left">
                         <!--- carousel -->
                         <div id="myCarousel" class="carousel slide" data-ride="carousel">
                             <!-- Wrapper for slides -->
@@ -139,6 +140,7 @@
                           </div>
                         <!-- carousel end -->
                     </div>
+                    </div>
                 </div>
     		</div>
     	</div>
@@ -147,8 +149,9 @@
     	<div class="container">
     		<div class="row">
     			<div class="col-md-6 col-sm-6">
-    				<div class="info-left">
-    					<div class="row">
+    				<div class="well">
+                        <div class="info-left">
+                        <div class="row">
                             <div class="col-md-6 col-sm-6">
                                 <div class="thumbnail">
                                     <img src="img/product4.png" style="width: 100%">
@@ -172,7 +175,8 @@
                                 </div>
                             </div>                 
                         </div>
-    				</div>
+                    </div>            
+                    </div>
     			</div>
     			<div class="col-md-6 col-sm-6">
     				<div class="info-right">
@@ -203,8 +207,8 @@
                     
                 </div>
     			<div class="col-md-5 col-sm-5">
-                    <h1 class="site-greeting">get in touch</h1>
                     <br>
+                    <span id="status"></span>
     				<form id="my_form" onsubmit="submitForm(); return false;">
 		              <div class="form-group">
 		                <label>Name: </label>
@@ -218,9 +222,9 @@
 		                <label>Message: </label>
 		                <textarea class="form-control" id="m" name="" value="" placeholder="Enter Message" required></textarea>
 		              </div>
-                      <input type="submit" id="mybtn" value="Submit" class="btn btn-primary">
+                      <input type="submit" id="mybtn" value="Get in touch" class="btn btn-primary">
                       <br>
-                      <span id="status"></span>
+                      
 		            </form>
     			</div>
     		</div>
