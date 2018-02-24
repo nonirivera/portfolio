@@ -18,7 +18,7 @@ window.sr = ScrollReveal();
 			delay: 2000,
 			origin: 'bottom'
 		});
-		sr.reveal('#testimonial div', {
+		sr.reveal('#home div', {
 			duration: 2000,
 			origin: 'bottom'
 		});

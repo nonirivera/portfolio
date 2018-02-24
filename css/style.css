@@ -1,31 +1,45 @@
 .site-greeting{
 	font-family: Lobster;
+	color: white;
 }
 
 body{
-	margin-top: 70px;
+	/*margin-top: 70px;*/
+	margin: 0;
+	padding: 0;
 	font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6{
 	font-family: Poppins;
+	color: #666;
 }
 
 p{
 	font-family: Roboto;
 }
 
-.navbar-default{
-	background: #ffffff;
-	border: 0;
-	font-family: Poppins;
-}
+/*.navbar-inverse,
+#showcase{
+	margin: 0;
+	padding: 1px;
+}*/
 
 .navbar-inverse{
 	border: 0;
 	font-family: Poppins;
+	background: #02111D;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #02111D, #037BB5, #02111D);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #02111D, #037BB5, #02111D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+#navbar a{
+	color: white;
+}
+
+#navbar a:hover{
+	text-decoration: underline;
+}
 
 .navbar-brand{
   font-size:20px;
@@ -33,17 +47,17 @@ p{
   font-weight:bold;
 }
 
-#showcase h1{
+#about h1{
 	font-size: 50px;
 	margin-bottom: 20px;
 }
 
-#showcase img{
+#about img{
 	width: 90%;
 	margin-left: 60px;
 }
 
-#showcase .showcase-right{
+#about .showcase-right{
 	margin-top: 90px;
 }
 
@@ -51,20 +65,24 @@ p{
 	color:#09c1af;
 }
 
-#testimonial{
-	background: url(../img/image4.jpeg);
+#home{
+background: #24C6DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 	padding: 50px 0 30px 0;
-	text-align: center;
+	text-align: center;home
 	margin-top: 40px;
 }
 
-#testimonial p{
+#home p{
 	font-size: 32px;
 	font-family: 'Josefin Sans';
 	color: #000000;
 }
 
-#testimonial p.customer{
+#home p.customer{
 	font-size: 15px;
 	color: #fff;
 }
@@ -81,7 +99,7 @@ p{
 	background: url(../img/image5.jpg);
 	padding: 40px;
 	color: #ffffff;
-	border-top: #333 7px solid;
+	border-top: #333 2px solid;
 	border-bottom: #333 7px solid;
 }
 
@@ -123,9 +141,22 @@ footer{
 }
 
 #well1{
-	background: url(../img/projectsection1.jpg);
+	background: #C04848;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #480048, #C04848);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #480048, #C04848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 #well2{
-	background: url(../img/projectsection2.jpg);
+	background: #00467F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A5CC82, #00467F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A5CC82, #00467F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+footer{
+background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }

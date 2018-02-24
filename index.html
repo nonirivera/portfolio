@@ -16,7 +16,7 @@
     function _(id){ return document.getElementById(id); }
     function submitForm(){
         _("mybtn").disabled = true;
-        _("status").innerHTML = 'please wait ...';
+        _("status").innerHTML = "<div class='alert alert-info' role='alert'>Please wait...</div>";
         var formdata = new FormData();
         formdata.append( "n", _("n").value );
         formdata.append( "e", _("e").value );
@@ -49,8 +49,8 @@
           </button>
           <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-left">
-            <li><a href="#showcase">Home</a></li>
-            <li><a href="#info1">About</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -64,7 +64,34 @@
       </div>
     </nav>
 
-    <section id="showcase">
+    <section id="home">
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <i class="fa fa-code fa-4x" style="color:#ea314d;"></i>
+                    <h3 class="site-greeting">Code</h3>
+                    <hr>
+                    <p class="customer">Backend development using PHP framework (CodeIgniter) with MySQL as well as NodeJS.</p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <i class="fa fa-lightbulb-o fa-4x" aria-hidden="true" style="color:#7bdb15;"></i>
+                    <h3 class="site-greeting">Design</h3>
+                    <hr>
+                    <p class="customer">Design pages from scratch or also work with front-end frameworks such as Bootstrap.</p>
+                </div>     
+                <div class="col-md-4 col-sm-4">
+                    <i class="fa fa-line-chart fa-4x" aria-hidden="true" style="color: #f2e343;"></i>
+                    <h3 class="site-greeting">Analyze</h3>
+                    <hr>
+                    <p class="customer">Offer easy report-handling for robust web applications.</p>
+                </div>           
+            </div>
+            <br>
+        </div>
+    </section>
+
+    <section id="about">
     	<div class="container">
     		<div class="row">
     			<div class="col-md-6 col-sm-6">
@@ -78,42 +105,19 @@
     					<p>I'm Noni, a programmer from the Philippines who specializes in web application development.</p>
     				</div>
     				<br>
-    				<a class="btn btn-default btn-lg showcase-btn" href="#testimonial">Services offered</a>
+    				<a class="btn btn-default btn-lg showcase-btn" href="#info1">Sample works</a>
     			</div>
     		</div>
     	</div>
+        <br>
+        <br>
     </section>
-    <br>
-    <br>
-    <section id="testimonial">
-    	<div class="container">
-    		<div class="row">
-                <div class="col-md-4 col-sm-4">
-                    <i class="fa fa-code fa-4x" style="color:#ea314d;"></i>
-                    <h3 class="site-greeting" style="color: red;">Code</h3>
-                    <hr>
-                    <p class="customer">Backend development using PHP framework (CodeIgniter) with MySQL as well as NodeJS.</p>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <i class="fa fa-lightbulb-o fa-4x" aria-hidden="true" style="color:#7bdb15;"></i>
-                    <h3 class="site-greeting" style="color: green;">Design</h3>
-                    <hr>
-                    <p class="customer">Design pages from scratch or also work with front-end frameworks such as Bootstrap.</p>
-                </div>     
-                <div class="col-md-4 col-sm-4">
-                    <i class="fa fa-line-chart fa-4x" aria-hidden="true" style="color: #f2e343;"></i>
-                    <h3 class="site-greeting" style="color: yellow;">Analyze</h3>
-                    <hr>
-                    <p class="customer">Offer easy report-handling for robust web applications.</p>
-                </div>           
-            </div>
-    	</div>
-    </section>
+    <hr>
     <br>
     <section id="info1">
     	<div class="container">
             <h2 class="text-center">Sample Works</h2>
-            <hr>
+            <br>
     		<div class="row">
     			<div class="col-md-6 col-sm-6">
     				<div class="info-right">
@@ -236,8 +240,6 @@
     </section>
 
     <footer>
-        <hr>
-    	<!-- <p class="text-center">Noni Rivera &copy; 2018</p> -->
         <div class="row">
             <div class="col-md-4 col-sm-4">
                 <p class="">Noni Rivera &copy; 2018</p>
