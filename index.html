@@ -69,19 +69,29 @@
             <br>
             <div class="row">
                 <div class="col-md-4 col-sm-4">
-                    <i class="fa fa-code fa-4x" style="color:#ea314d;"></i>
+                    <span class="fa-stack fa-4x" style="color:#ea314d;">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+                    </span>
                     <h3 class="site-greeting">Code</h3>
                     <hr>
                     <p class="customer">Backend development using PHP framework (CodeIgniter) with MySQL as well as NodeJS.</p>
                 </div>
                 <div class="col-md-4 col-sm-4">
-                    <i class="fa fa-lightbulb-o fa-4x" aria-hidden="true" style="color:#7bdb15;"></i>
+                    <span class="fa-stack fa-4x" style="color:#7bdb15;">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-lightbulb-o fa-stack-1x fa-inverse"></i>
+                    </span>
                     <h3 class="site-greeting">Design</h3>
                     <hr>
                     <p class="customer">Design pages from scratch or also work with front-end frameworks such as Bootstrap.</p>
                 </div>     
                 <div class="col-md-4 col-sm-4">
-                    <i class="fa fa-line-chart fa-4x" aria-hidden="true" style="color: #f2e343;"></i>
+                    <span class="fa-stack fa-4x" style="color: #f2e343;">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
+                    </span><!-- 
+                    <i class="fa fa-line-chart fa-4x" aria-hidden="true" style="color: #f2e343;"></i> -->
                     <h3 class="site-greeting">Analyze</h3>
                     <hr>
                     <p class="customer">Offer easy report-handling for robust web applications.</p>
@@ -96,7 +106,9 @@
     		<div class="row">
     			<div class="col-md-6 col-sm-6">
     				<div class="showcase-left">
-    					<img src="img/image1.png">
+                        <figure class="swing">
+    					   <img src="img/image1.png">
+                        </figure>
     				</div>
     			</div>
     			<div class="col-md-6 col-sm-6">
@@ -105,7 +117,7 @@
     					<p>I'm Noni, a programmer from the Philippines who specializes in web application development.</p>
     				</div>
     				<br>
-    				<a class="btn btn-default btn-lg showcase-btn" href="#info1">Sample works</a>
+    				<a class="btn btn-primary btn-lg showcase-btn" href="#infoa">Sample works</a>
     			</div>
     		</div>
     	</div>
@@ -114,10 +126,40 @@
     </section>
     <hr>
     <br>
-    <section id="info1">
-    	<div class="container">
+    <!--- -->
+    <section id="infoa">
+        <div class="container">
             <h2 class="text-center">Sample Works</h2>
             <br>
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="well" id="well3">
+                        <div class="info-left">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <div class="thumbnail">
+                                    <a data-fancybox="gallery" href="img/bluetheme2.jpg"><img src="img/bluetheme1.png"></a>
+                                </div>
+                            </div>               
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="info-right">
+                        <h3>Kabatak Hilltop</h3>
+                        <p>custom Bootstrap theme with Sass for a local youth organization.</p>
+                        <br>
+                        <a href="https://github.com/nonirivera/theme" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> View on GitHub</a> 
+                        <a href="https://bluethemedemo.000webhostapp.com/" class="btn btn-info btn-lg" target="_blank"><i class="fa fa-desktop" aria-hidden="true"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--- -->
+    <section id="info1">
+    	<div class="container">
     		<div class="row">
     			<div class="col-md-6 col-sm-6">
     				<div class="info-right">
@@ -210,50 +252,37 @@
     <br>
     <br>
     <section id="contact">
-    	<div class="container">
-    		<div class="row">
-                <div class="col-md-2 col-sm-2">
-                    
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Contact</h3>
+                    <p><a href="mailto:nonesio.rivera@yahoo.com">nonesio.rivera@yahoo.com</a></p>
+                    <p><a href="#">+63 995 164 6934</a></p>
+                    <p><a href="#">+02 671 6647</a></p>
                 </div>
-    			<div class="col-md-5 col-sm-5">
-                    <br>
-                    <span id="status"></span>
-    				<form id="my_form" onsubmit="submitForm(); return false;">
-		              <div class="form-group">
-		                <label>Name: </label>
-		                <input class="form-control" type="text" id="n" name="" value="" placeholder="Enter Name" required>
-		              </div>
-		              <div class="form-group">
-		                <label>Email: </label>
-		                <input class="form-control" type="email" id="e" name="" value="" placeholder="Enter Email" required>
-		              </div>
-		              <div class="form-group">
-		                <label>Message: </label>
-		                <textarea class="form-control" id="m" name="" value="" placeholder="Enter Message" required></textarea>
-		              </div>
-                      <input type="submit" id="mybtn" value="Get in touch" class="btn btn-primary">
-                      <br>
-                      
-		            </form>
-    			</div>
-    		</div>
-    	</div>
-    </section>
-
-    <footer>
-        <div class="row">
-            <div class="col-md-4 col-sm-4">
-                <p class="">Noni Rivera &copy; 2018</p>
-            </div>
-            <div class="col-md-4 col-sm-4">
-                
-            </div>
-            <div class="col-md-4 col-sm-4">
-                <i class="fa fa-phone-square" aria-hidden="true"></i> +02 671 6647 &nbsp; &nbsp; | &nbsp; &nbsp;
-                <i class="fa fa-mobile" aria-hidden="true"></i> +63 995 164 6934
+                <div class="col-md-4">
+                    <h3>Sitemap</h3>
+                    <p><a href="#about">About</a></p>
+                    <p><a href="#infoa">Sample Works</a></p>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://github.com/nonirivera">
+                        <span class="fa-stack fa-4x">
+                          <i class="fa fa-square-o fa-stack-2x"></i>
+                          <i class="fa fa-github fa-stack-1x"></i>
+                        </span>
+                    </a> 
+                    <a href="https://www.facebook.com/nonirivera">
+                        <span class="fa-stack fa-4x">
+                          <i class="fa fa-square-o fa-stack-2x"></i>
+                          <i class="fa fa-facebook fa-stack-1x"></i>
+                        </span>
+                    </a>
+                </div>
             </div>
         </div>
-    </footer>
+    </section>
+
 <script src="script/jquery.min.js"></script>
 <script src="script/jquery.fancybox.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
